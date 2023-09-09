@@ -1,0 +1,74 @@
+#root{
+    margin: 0;
+    text-align:center
+}
+:root{
+    font-family: Helvetica, sans-serif;
+    font-size:16px;
+    line-height:24px;
+    font-weight:400;
+    background-color:#398587;
+    color-scheme:light dark;
+    color:#fff;
+    background-size:cover auto;
+    background-blend-mode:multiply;
+    font-synthesis: none;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialised;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-text-size-adjust:100%
+}
+.App{
+    margin-left:60px;
+    margin: right 60px;
+    color:#000
+}
+
+h1{
+    color:#fff;
+    font-size:80px;
+    text-shadow: black 1px 0 10px;
+    padding-bottom: 18px;
+    margin-left:50px
+}
+
+.container{
+    display:flex;
+    flex-flow: row wrap;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.Card{
+    color:#000;
+    background-color: #fff;
+    padding-bottom:20px;
+    box-shadow:0 15px 25px #817c7c33;
+    font-size:medium;
+    border-radius:14px;
+    backdrop-filter:blur(2px);
+    text-align:center;
+    margin-bottom:30px;
+    height:450px;
+
+}
+
+.Card img{
+    height:300px;
+    width:300px;
+    object-fit:cover;
+}
+
+h3{
+    font-size:24px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+body{
+    margin:0;
+    display:flex;
+    place-items:center;
+    min-width:320px;
+    min-height:100vh;
+}
