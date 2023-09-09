@@ -12,48 +12,66 @@ const App = () =>{
         </div>
         <div className="container">
           
-          <Card imgLink={"https://nypost.com/wp-content/uploads/sites/2/2023/09/Mookie-Betts-50-of-the-Los-Angeles-Dodgers-hits-a-three-run-home-run-against-starting-pitcher-Spencer-Strider-.jpg"} name={"Mookie Betts"} team={"Los Angeles Dodgers"}/>
-          <Card imgLink ={
-            "https://cdn.vox-cdn.com/thumbor/QmcIWzOzaC3RHydhkBg2aISfgp8=/0x0:3000x2200/1820x1213/filters:focal(1260x860:1740x1340):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/72526925/1585418717.0.jpg"} name={"Ronald Acuna Jr."} team={"Atlanta Braves"}/>
+          <Card 
+            imgLink={"https://nypost.com/wp-content/uploads/sites/2/2023/09/Mookie-Betts-50-of-the-Los-Angeles-Dodgers-hits-a-three-run-home-run-against-starting-pitcher-Spencer-Strider-.jpg"}
+            name={"Mookie Betts"} 
+            team={"Los Angeles Dodgers"}
+            statsLink={"https://www.baseball-reference.com/players/b/bettsmo01.shtml"}
+            />
+          <Card 
+          imgLink ={
+            "https://cdn.vox-cdn.com/thumbor/QmcIWzOzaC3RHydhkBg2aISfgp8=/0x0:3000x2200/1820x1213/filters:focal(1260x860:1740x1340):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/72526925/1585418717.0.jpg"} 
+            name={"Ronald Acuna Jr."} 
+            team={"Atlanta Braves"}
+            statsLink={"https://www.baseball-reference.com/players/a/acunaro01.shtml"}
+            />
           <Card
             imgLink={"https://www.wvnstv.com/wp-content/uploads/sites/76/2023/06/6498f0332d7d44.33111477.jpeg?strip=1"}
             name={"Freddie Freeman"}
             team={"Los Angeles Dodgers"}
+            statsLink={"https://www.baseball-reference.com/players/f/freemfr01.shtml"}
           />
           <Card
             imgLink={"https://cdn.vox-cdn.com/thumbor/JhHqJ-jcULGwe_ROR0OCyXqYvPU=/0x0:5223x3585/1200x800/filters:focal(2195x1376:3029x2210)/cdn.vox-cdn.com/uploads/chorus_image/image/72415111/1504438577.0.jpg"}
             name={"Corbin Carrol"}
             team={"Arizona Diamondbacks"}
+            statsLink={"baseball-reference.com/players/c/carroco02.shtml"}
           />
           <Card
             imgLink={"https://i0.wp.com/www.sportstalkatl.com/wp-content/uploads/2022/04/dkb220409029-cin-vs-atl.jpg?fit=1000%2C667&ssl=1"}
             name={"Matt Olson"}
             team={"Atlanta Braves"}
+            statsLink={"https://www.baseball-reference.com/players/o/olsonma02.shtml"}
           />
           <Card
             imgLink={"https://www.sportsnet.ca/wp-content/uploads/2021/10/Los-Angeles-Angels-Shohei-Ohtani-1040x572.jpg"}
             name={"Shohei Ohtani"}
             team={"Los Angeles Angels of Anaheim"}
+            statsLink={"https://www.baseball-reference.com/players/o/ohtansh01.shtml"}
           />
           <Card
             imgLink={"https://media.bleacherreport.com/image/upload/v1661531399/qozdrtwv8vs2oue5zomx.jpg"}
             name={"Julio Rodriguez"}
             team={"Seattle Mariners"}
+            statsLink={"https://www.baseball-reference.com/players/r/rodriju01.shtml"}
           />
           <Card
             imgLink={"https://imageio.forbes.com/specials-images/imageserve//62a9135aae0a70d45ca13aff/0x0.jpg?format=jpg&width=1200"}
             name={"Corey Seager"}
             team={"Texas Rangers"}
+            statsLink={"https://www.baseball-reference.com/players/s/seageco01.shtml"}
           />
           <Card
             imgLink={"https://s.yimg.com/ny/api/res/1.2/LC7wq8zWGIwBroWmGq7twg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2022-06/1ea7c8e0-e738-11ec-bc1d-72447a69da0a"}
             name={"Marcus Semien"}
             team={"Texas Rangers"}
+            statsLink={"https://www.baseball-reference.com/players/s/semiema01.shtml"}
           />
           <Card
             imgLink={"https://www.usatoday.com/gcdn/presto/2022/03/25/USAT/d6764ee4-c8cc-48aa-8de0-481c7fd39855-Witt_1_.jpg?width=1200&disable=upscale&format=pjpg&auto=webp"}
-            name={"Bobby Witt Jr."}
+            name={"Bobby Witt"}
             team={"Kansas City Royals"}
+            statsLink={"https://www.baseball-reference.com/players/w/wittbo02.shtml"}
           />
         </div>
       </div>

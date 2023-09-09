@@ -12,7 +12,7 @@ const Card = (props)=> {
             <img src={props.imgLink}/>
             <h3>{props.name}</h3>
             <h4>{props.team}</h4>
-            
+            <a href={props.statsLink}><button>Baseball Reference Stats</button></a>
         </div>
     )
 }
