@@ -7,7 +7,7 @@
     font-size:16px;
     line-height:24px;
     font-weight:400;
-    background-color:#398587;
+    background-color:#010a0a;
     color-scheme:light dark;
     color:#fff;
     background-size:cover auto;
@@ -25,7 +25,7 @@
 }
 
 h1{
-    color:#fff;
+    color:whitesmoke;
     font-size:80px;
     text-shadow: black 1px 0 10px;
     padding-bottom: 18px;
