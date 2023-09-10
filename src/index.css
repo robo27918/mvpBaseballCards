@@ -25,9 +25,9 @@
 }
 
 h1{
-    color:whitesmoke;
+    color:black;
     font-size:80px;
-    text-shadow: black 1px 0 10px;
+    
     padding-bottom: 18px;
     margin-left:50px
 }
@@ -41,7 +41,7 @@ h1{
 
 .Card{
     color:#000;
-    background-color: #fff;
+    background-color: dodgerblue;
     padding-bottom:20px;
     box-shadow:0 15px 25px #817c7c33;
     font-size:medium;
