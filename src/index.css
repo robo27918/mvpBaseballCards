@@ -39,6 +39,23 @@ h1{
     justify-content:space-between;
 }
 
+.Back{
+    color:#000;
+    background-color: dodgerblue;
+    padding-bottom:20px;
+    box-shadow:0 15px 25px #817c7c33;
+    font-size:medium;
+    border-radius:14px;
+    backdrop-filter:blur(2px);
+    text-align:center;
+    margin-bottom:30px;
+    height:450px;
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .Card{
     color:#000;
     background-color: dodgerblue;
