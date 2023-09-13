@@ -8,7 +8,7 @@ const App = () =>{
       <div className="App">
         <div className="Header">
           <img src={imgUrl}/>
-          <h1>MVP Baseball Cards: 2023</h1>
+          <h1>MVP Baseball</h1>
         </div>
         <div className="container">
           
