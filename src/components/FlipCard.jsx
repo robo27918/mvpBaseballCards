@@ -19,7 +19,7 @@ const FlipCard = ({front, back})=>{
     const handleClick = () =>{
         setIsFlipped((prevIsFlipped) => !prevIsFlipped);
     };
-    console.log("From the FlipCard component")
+    
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection={"horizontal"}>
         <div>
