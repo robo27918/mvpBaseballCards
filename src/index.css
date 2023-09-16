@@ -71,9 +71,10 @@ h1{
     box-shadow:0 15px 25px #817c7c33;
     font-size:medium;
     border-radius:14px;
-    backdrop-filter:blur(2px);
+   
     text-align:center;
     margin-bottom:30px;
+    overflow:hidden;
     height:450px;
     transform: translateZ(1);
     -webkit-transform: translateZ(1);
