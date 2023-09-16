@@ -40,6 +40,7 @@ h1{
 }
 
 .Back{
+    max-width: 100vw;
     color:#000;
     background-color: dodgerblue;
     padding-bottom:20px;
