@@ -62,6 +62,7 @@ h1{
     -moz-transform: translateZ(1);
     -ms-transform: translateZ(1);
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 .Card{
     color:#000;
