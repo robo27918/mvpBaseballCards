@@ -20,7 +20,14 @@ const App = () =>{
               team={"Los Angeles Dodgers"}
               statsLink={"https://www.baseball-reference.com/players/b/bettsmo01.shtml"}
               />}
-              back={<Backside/>}
+              back={<Backside
+              name={"Mookie Betts"}
+              avg={".310"}
+              hrs={39}
+              rbi={103}
+              ops={"1.009"}
+              />
+            }
             />
             <FlipCard front={
               <Card 
@@ -32,7 +39,13 @@ const App = () =>{
                 />
             }
 
-              back={<Backside/>}
+              back={<Backside
+              name={"Ronald Acuna Jr."}
+              avg={".337"}
+              hrs={37}
+              rbi={98}
+              ops={"1.004"}
+              />}
             />
             
             <FlipCard front={
@@ -45,7 +58,13 @@ const App = () =>{
              
             }
 
-              back={<Backside/>}
+              back={<Backside
+                name={"Freddie Freeman"}
+                avg={".334"}
+                hrs={26}
+                rbi={93}
+                ops={.984}
+              />}
             />
              
              <FlipCard front={
@@ -53,12 +72,18 @@ const App = () =>{
                imgLink={"https://cdn.vox-cdn.com/thumbor/JhHqJ-jcULGwe_ROR0OCyXqYvPU=/0x0:5223x3585/1200x800/filters:focal(2195x1376:3029x2210)/cdn.vox-cdn.com/uploads/chorus_image/image/72415111/1504438577.0.jpg"}
                name={"Corbin Carrol"}
                team={"Arizona Diamondbacks"}
-               statsLink={"baseball-reference.com/players/c/carroco02.shtml"}
+               statsLink={"https://baseball-reference.com/players/c/carroco02.shtml"}
              />
              
             }
 
-              back={<Backside/>}
+              back={<Backside
+                name={"Corbin Carrol"}
+                avg={".279"}
+                hrs={24}
+                rbi={70}
+                ops={".860"}
+              />}
             />
              
              <FlipCard front={
@@ -70,7 +95,13 @@ const App = () =>{
            />
             }
 
-              back={<Backside/>}
+              back={<Backside
+                name={"Matt Olson"}
+                avg={".281"}
+                hrs={52}
+                rbi={129}
+                ops={"1.005"}
+              />}
             />
              
              <FlipCard front={
@@ -82,7 +113,14 @@ const App = () =>{
               />
             }
 
-              back={<Backside/>}
+              back={<Backside
+                name={"Shohei Ohtani"}
+                avg={".304"}
+                hrs={44}
+                rbi={95}
+                ops={
+                  "1.066"}
+              />}
             />
              
              <FlipCard front={
@@ -95,7 +133,13 @@ const App = () =>{
           />
             }
 
-              back={<Backside/>}
+              back={<Backside
+                name={"Julio Rodriguez"}
+                avg={".290"}
+                hrs={30}
+                rbi={99}
+                ops={".849"}
+              />}
             />
              
              <FlipCard front={
@@ -107,7 +151,13 @@ const App = () =>{
            />
             }
 
-              back={<Backside/>}
+              back={<Backside
+                name={"Corey Seager"}
+                avg={".340"}
+                hrs={31}
+                rbi={92}
+                ops={"1.060"}
+              />}
             />
              
              <FlipCard front={
@@ -119,7 +169,13 @@ const App = () =>{
            />
             }
 
-              back={<Backside/>}
+              back={<Backside
+                name={"Marcus Semien"}
+                avg={".276"}
+                hrs={24}
+                rbi={89}
+                ops={".815"}
+              />}
             />
               <FlipCard front={
                <Card
@@ -130,7 +186,13 @@ const App = () =>{
              />
             }
 
-              back={<Backside/>}
+              back={<Backside
+                name={"Bobby Witt"}
+                avg={".280"}
+                hrs={29}
+                rbi={90}
+                ops={".823"}
+              />}
             />
           
            

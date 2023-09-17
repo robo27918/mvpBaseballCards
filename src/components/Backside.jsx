@@ -4,15 +4,15 @@ import React from "react";
  * the players batting avg, hrs, rbis and OPS
  */
 
-const Backside = ()=> {
+const Backside = ({name, avg, hrs, rbi, ops})=> {
 
     return (
         <div className="Back">
-            <h4>This is the backside component</h4>
-            <h4>Batting Average: .XXX</h4>
-            <h4>Homeruns: X</h4>
-            <h4> RBI: X</h4>
-            <h4>OPS: .XXX</h4>
+            <h3>{name}</h3>
+            <h4>Batting Average: {avg}</h4>
+            <h4>Homeruns: {hrs}</h4>
+            <h4> RBI: {rbi}</h4>
+            <h4>OPS: {ops}</h4>
            
             
         </div>

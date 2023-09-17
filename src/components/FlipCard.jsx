@@ -24,7 +24,7 @@ const FlipCard = ({front, back})=>{
         <ReactCardFlip isFlipped={isFlipped} flipDirection={"horizontal"}>
         <div>
           {front}
-          <button onClick={handleClick}>Click to flip</button>
+          <button className="FlipButton" onClick={handleClick}>Click to flip</button>
         </div>
         
 
