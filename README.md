@@ -4,6 +4,8 @@ Submitted by: **Roberto Sigmund Toribio**
 
 This web app: **contains the top 10 mlb mvp candidates for the 2023 season.**
 
+Link to site: **https://robsmvp.netlify.app/**
+
 Time spent: **~10** hours spent in total
 
 ## Required Features
